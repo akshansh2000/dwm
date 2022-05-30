@@ -2132,6 +2132,7 @@ view(const Arg *arg)
 
 	focus(NULL);
 	arrange(selmon);
+  system("xdotool mousemove_relative 10 0");
 }
 
 Client *
