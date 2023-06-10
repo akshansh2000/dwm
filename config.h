@@ -173,3 +173,11 @@ static IPCCommand ipccommands[] = {
   IPCCOMMAND(  quit,                1,      {ARG_TYPE_NONE}   )
 };
 
+/* signal definitions */
+/* signum must be greater than 0 */
+/* trigger signals using `xsetroot -name "fsignal:<signum>"` */
+static Signal signals[] = {
+	/* signum       function        argument  */
+	{ 1,            setlayout,      {.v = 0} },
+	{ 69,           exitfullscreen, {0} },
+};
