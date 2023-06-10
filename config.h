@@ -9,7 +9,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const int usealtbar          = 1;        /* 1 means use non-dwm status bar */
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
 static const char *alttrayname      = "polybar-myBar_eDP";    /* Polybar tray instance name */
-static const char *altbarcmd        = "polybar myBar --config=~/.config/polybar/config.ini &"; /* Alternate bar launch command */
+static const char *altbarcmd        = "/home/akshansh2000/bin/launch_polybar &"; /* Alternate bar launch command */
 static const char *fonts[]          = { "monospace:size=11" };
 static const char dmenufont[]       = "monospace:size=11";
 static const char col_gray1[]       = "#222222";
